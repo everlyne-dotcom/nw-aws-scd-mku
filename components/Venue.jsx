@@ -55,18 +55,30 @@ const Venue = () => {
               </div>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-4 border border-white/20 h-64 flex items-center justify-center">
-              <p className="text-gray-400">Google Maps Embed</p>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 h-64">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31913.231805445554!2d37.04984664916992!3d-1.0455957795425637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f4f18e07c8159%3A0x64df508073c788f2!2sMwai%20Kibaki%20Convention%20Centre!5e0!3m2!1sen!2ske!4v1777827537599!5m2!1sen!2ske"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Mwai Kibaki Convention Centre Location"
+              />
             </div>
 
-            <motion.button
+            <motion.a
+              href="https://www.google.com/maps/dir/?api=1&destination=Mwai+Kibaki+Convention+Centre,Mount+Kenya+University,Thika,Kenya"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              className="block w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 text-center"
               aria-label="Get directions to venue"
             >
               Get Directions
-            </motion.button>
+            </motion.a>
           </motion.div>
         </div>
       </div>

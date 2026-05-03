@@ -8,25 +8,50 @@ const Speakers = () => {
 
   const speakers = [
     {
-      name: 'Dr. Sarah Kimani',
-      title: 'AWS Solutions Architect',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80',
+      name: 'Kevin Tuei',
+      title: 'AWS Community Builder, Educator and Cloud consultant',
+      image: 'images/speakers/tuei.jpg',
     },
     {
-      name: 'John Mwangi',
-      title: 'Senior DevOps Engineer',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80',
+      name: 'Murithi Gitoga',
+      title: 'AWS Cloud Optimization Solution Architect',
+      image: 'images/speakers/murithi.jpg',
     },
     {
-      name: 'Grace Ochieng',
-      title: 'ML Engineer at AWS',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80',
+      name: 'Timothy Munyao',
+      title: 'AWS Golden Jacket Pioneer & CEO, Shinrai Technologies',
+      image: 'images/speakers/timothy.jpg',
     },
     {
-      name: 'David Omondi',
-      title: 'Cloud Security Expert',
-      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80',
+      name: 'George Midega',
+      title: 'AWS Community Builder, Cloud and Data Engineer',
+      image: 'images/speakers/george.jpg',
     },
+    {
+      name: 'Pauline',
+      title: 'AWS Authoried Instructor, Cloud Trainer, Cloud Consultant',
+      image: 'images/speakers/pauline.jpg',
+    },
+    {
+      name: 'Nelson Ngumo',
+      title: 'Cloud and DevOps Engineer, AWS Community Builder',
+      image: 'images/speakers/nelson.jpg',
+    },
+    {
+      name: 'Jacob Moracha',
+      title: 'AWS Community Builder, Software and Data Engineer',
+      image: 'images/speakers/jacob moracha.jpg',
+    },
+    {
+      name: 'Mark Orina',
+      title: 'AWS Community Builder, Software and Data Engineer',
+      image: 'images/speakers/mark.jpg',
+    },
+    {
+      name: 'Jacob Kipkerich',
+      title: 'AWS Community Builder, Software  Engineer',
+      image: 'images/speakers/Jacob Kipkerich.jpg',
+    }
   ]
 
   return (
@@ -75,14 +100,7 @@ const Speakers = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-center"
         >
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-white/10 backdrop-blur-lg text-white px-8 py-3 rounded-2xl font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300"
-            aria-label="View all speakers"
-          >
-            View All Speakers
-          </motion.button>
+        
         </motion.div>
       </div>
     </section>

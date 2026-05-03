@@ -10,7 +10,7 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const navLinks = ['About', 'Agenda', 'Speakers', 'Venue', 'Sponsors', 'Tickets']
+  const navLinks = ['About', 'Agenda', 'Speakers', 'Venue', 'Sponsors']
 
   return (
     <motion.nav

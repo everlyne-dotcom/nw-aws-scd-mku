@@ -5,7 +5,6 @@ import Agenda from '../components/Agenda'
 import Speakers from '../components/Speakers'
 import Sponsors from '../components/Sponsors'
 import Venue from '../components/Venue'
-import Tickets from '../components/Tickets'
 import Footer from '../components/Footer'
 
 const Home = () => {
@@ -18,7 +17,6 @@ const Home = () => {
       <Speakers />
       <Sponsors />
       <Venue />
-      <Tickets />
       <Footer />
     </div>
   )
