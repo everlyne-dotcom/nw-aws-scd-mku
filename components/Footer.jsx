@@ -2,10 +2,9 @@ import { motion } from 'framer-motion'
 
 const Footer = () => {
   const socialLinks = [
-    { name: 'Twitter', url: '#', icon: '𝕏' },
-    { name: 'LinkedIn', url: '#', icon: 'in' },
-    { name: 'Instagram', url: '#', icon: '📷' },
-    { name: 'GitHub', url: '#', icon: '⚙' },
+    { name: 'Twitter', url: 'https://x.com/AWSMku', icon: '𝕏' },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/company/aws-student-builder-group-mku/?viewAsMember=true', icon: 'in' },
+    { name: 'Whatsapp', url: 'https://chat.whatsapp.com/D5hXS7esgkEL5NVZcfXooB', icon: '💬' },
   ]
 
   return (
@@ -13,7 +12,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">AWS SCD Nairobi</h3>
+            <h3 className="text-xl font-bold text-white mb-4">AWS SCD MKU</h3>
             <p className="text-gray-400">
               Organized by AWS Student Community Leaders in partnership with local universities
               and tech communities across Kenya.
@@ -23,7 +22,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              {['About', 'Speakers', 'Sponsors', 'Venue', 'Tickets'].map((link) => (
+              {['About', 'Speakers', 'Sponsors', 'Venue'].map((link) => (
                 <li key={link}>
                   <a
                     href={`#${link.toLowerCase()}`}

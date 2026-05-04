@@ -12,69 +12,68 @@ const Agenda = () => {
       desc: 'Check-in and morning coffee',
     },
     {
-      time: '09:00',
+      time: '09:15',
       title: 'Opening Keynote',
-      desc: 'The Borderless Campus: Architecting the Future of Education through Cloud-Native Innovation',
+      desc: 'The Future of Cloud, AI & Innovation',
     },
     {
-      time: '09:30',
-      title: 'Roadmap to Golden Jacket and Certifications',
+      time: '09:50',
+      title: 'Roadmap to Golden Jacket,Certifications and Career Growth',
       speaker: 'Timothy Munyao',
     },
     {
-      time: '10:00',
-      title:
-        'The Zero-Budget Architect: Building Production-Grade Apps on the AWS Free Tier',
+      time: '10:25',
+      title:'Building Cost-Optimized Architecture on AWS',
       speaker: 'Murithi Gitonga',
     },
     {
-      time: '10:30',
-      title: 'Panel Discussion',
+      time: '11:10',
+      title: 'Cloud Native Development: Mastering Containers and Microservices on AWS',
+      speaker: 'George Midega'
     },
     {
-      time: '11:00',
-      title:
-        'Beyond the Console: Your First Steps into Cloud-Native AWS',
-      speaker: 'George Midega',
+      time: '11:45',
+      title:'Launchpad on AWS: Bridging the Gap From Idea to Intelligent Startup',
+      speaker: 'Jacob Moracha',
     },
     {
-      time: '11:30',
-      title: 'Beyond the Chatbot: Mastering Generative AI with AWS Bedrock & SageMaker',
-      speaker: 'Grace Ngari',
+      time: '12:20',
+      title: 'Identity is the New Perimeter: A Deep Dive Into IAM',
+      speaker: 'Pauline Namwakira',
     },
     {
-      time: '12:00',
+      time: '13:00',
       title: 'Lunch Break',
       desc: 'Networking and refreshments provided',
     },
     {
-      time: '13:00',
-      title: 'Launchpad AWS: Bridging the Gap from Idea to Intelligent Startup',
-      speaker: 'Joel Muuo',
+      time: '14:00',
+      title: 'The Innovation Fast-Track: Building with Cursor & AWS',
+      speaker: 'Felix Jumason',
     },
     {
-      time: '13:30',
+      time: '14:35',
       title:
-        'Scaling Kubernetes on AWS: Smart Autoscaling with Karpenter',
+        'Scaling Kubernetes on AWS: Intelligent Node Provisioning with Karpenter',
       speaker: 'Nelson Ngumo',
     },
     {
-      time: '14:00',
+      time: '15:10',
       title:
-        'Identity is the New Perimeter: A Deep Dive into IAM',
-      speaker: 'Pauline Namwakira',
+        'Next CI/CD: Integrating Intelligent Automation Into AWS Workflows',
+      speaker: 'Mark Orina',
     }, 
     {
-      time: '15:00',
-      title: 'Building DevOps for Agentic AI',
-      speaker: 'Shubham Londhe',
+      time: '15:45',
+      title: 'The Architect Sketchpad: Why You Should Draw Your Solution Before You Code It',
+      speaker: 'Jacob Kipketich',
     },
     {
-      time: '15:30',
+      time: '16:25',
       title: 'Closing Remarks',
     },
     {
-      time: '16:00',
+      time: '16:30',
       title: 'End of Program',
     },
   ]

@@ -51,6 +51,11 @@ const Speakers = () => {
       name: 'Jacob Kipkerich',
       title: 'AWS Community Builder, Software  Engineer',
       image: 'images/speakers/Jacob Kipkerich.jpg',
+    },
+    {
+      name: 'Felix Jumason',
+      title: 'AWS Community Builder, Software Developer, Cursor Ambassador',
+      image: 'images/speakers/felix.jpg',
     }
   ]
 
